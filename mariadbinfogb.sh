@@ -1,5 +1,9 @@
 #!/bin/sh
-# Script by cPFence Team, https://cpfence.app
+####################################################
+# Script by cPFence Team, https://cpfence.app      #
+# Modified by 8Dweb to show in GB                  # 
+####################################################
+
 mysql -e "show variables; show status" | awk '
 {
 VAR[$1]=$2
