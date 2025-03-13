@@ -2,6 +2,7 @@
 ####################################################
 #                                                  #
 #         Simple Script to Find NIC Speed          #
+#          -ethtool must be installed to use       #
 #         8Dweb LLC / mjs                          #
 #         03-09-2025                               #
 ####################################################
