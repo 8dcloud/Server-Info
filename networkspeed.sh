@@ -1,4 +1,10 @@
 #!/bin/bash
+####################################################
+#                                                  #
+#         Simple Script to Find NIC Speed          #
+#         8Dweb LLC / mjs                          #
+#         03-09-2025                               #
+####################################################
 
 # Get a list of all network interfaces
 interfaces=$(ls /sys/class/net | grep -v lo)
